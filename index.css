@@ -9,11 +9,11 @@ body {
 .title {
     font-weight: bold;
     font-family: 'Karla', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 #description {
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .green-text {
@@ -23,10 +23,10 @@ body {
 #gen-pass-btn {
     background: #10B981;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     border-radius: 5px;
     border: none;
-    margin: 20px 0px;
+    margin: 1.25em 0;
     cursor: pointer;
 }
 
@@ -40,12 +40,12 @@ body {
 
 #passwordOne, #passwordTwo{
     background: #273549;
-    width: 211px;
-    height: 20px;
+    width: 13.1875em;
+    height: 1.25em;
     border-radius: 5px;
-    margin: 10px 10px 0px 0px;
+    margin: 0.625em 0.625em 0px 0px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     cursor: pointer;
 }
 
@@ -60,5 +60,12 @@ body {
     background: #1F2937;
     width: 70%;
     margin: 10rem auto;
-    padding: 30px;
+    padding: 1.875em;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-size: cover;
+    }
 }
